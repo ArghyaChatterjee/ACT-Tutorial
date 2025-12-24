@@ -1,18 +1,18 @@
 # ACT Tutorial
-A Tutorial on Action Chunking with Transformer.
+A Tutorial on Action Chunking with Transformer. This tutorial uses code and data from original work [Open-TeleVision](https://robot-tv.github.io/).
 
 ## Requirements
 This repository has been tested with ubuntu 24.04, Python 3.8, cuda 12.8 and nvidia RTX 4070.
 
 ## Clone the repo
 ```
-git clone https://github.com/ShalikAI/TeleVision.git
+git clone https://github.com/ArghyaChatterjee/ACT-Tutorial.git
 ```
 
 ## Installation
 Activate conda environment and install packages:
 ```bash
-cd TeleVision
+cd ACT-Tutorial
 source ~/miniconda3/bin/activate
 conda create -n tv python=3.8
 conda activate tv
@@ -33,15 +33,15 @@ python3 get_python_api.py
 
 Install Isaac Gym: 
 
-Download the Isaac Gym Preview 4 release from the [website](https://developer.nvidia.com/isaac-gym). Extract the zip file and copy the folder `isaacgym` inside `TeleVision`. Go inside `TeleVision`:
+Download the Isaac Gym Preview 4 release from the [website](https://developer.nvidia.com/isaac-gym). Extract the zip file and copy the folder `isaacgym` inside `ACT-Tutorial`. Go inside `ACT-Tutorial`:
 ```bash
-cd ~/TeleVision/isaacgym/python/
+cd ~/ACT-Tutorial/isaacgym/python/
 pip3 install -e .
 ```
 
 Clone Dinov2 for Python 3.8:
 ```bash
-cd ~/TeleVision
+cd ~/ACT-Tutorial
 git clone https://github.com/facebookresearch/dinov2.git
 cd dinov2
 git checkout b48308a394a04ccb9c4dd3a1f0a4daa1ce0579b8
