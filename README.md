@@ -1,2 +1,2 @@
-# ACT-Tutorial
-This reposuitory is about Action Chunking Transformer Tutorial.
+# ACT Tutorial
+This reposuitory is about Action Chunking with Transformer Tutorial.
